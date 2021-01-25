@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <header >
+        <h2 id="title">Survey Form</h2>
+        <p id="description">Thank you for taking the timeto help us improve the platform</p>
+    </header>
+    <section>
+    <div id="container">
+     <form action="" id="survey-form">
+        <div class="row">
+            <div class="label">
+                <label id="name-label">Name</label>
+            </div>
+            <div class="input-field">
+                <input type="text" name="name" id="name" placeholder="Enter the Name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <label id="email-label">Email</label>
+            </div>
+            <div class="input-field">
+                <input type="email" name="email" id="email" placeholder="Enter your mailid" required>
+            </div>
+        </div>
+        <div class="row">
+            <div  class="label" >
+                <label id="number-label">Age(Optional)</label>
+            </div>
+            <div class="input-field">
+                <input type="number" name="age" id="number" min="18" max="100" placeholder="Enter your age" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <label >Which option best describe your current position?</label>
+            </div>
+            <div class="select-tap">
+                <select name="role" id="dropdown" >
+                    <option value="select your current role">select your current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Job</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <label >Choose any Option</label>
+            </div>
+            <div class="input-field">
+                <div>
+                    <input type="radio" name="select" id="select" value="One">One 
+                </div>
+                <div>
+                    <input type="radio" name="select" id="select" value="Two">Two
+                </div>
+                <div>
+                    <input type="radio" name="select" id="select" value="Three">Three  
+                </div>               
+                     
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <label for="" > What is your favorite course?</label>
+            </div>
+            <div class="select-tap">
+                <select name="course" id="dropdown" >
+                    <option value="Front-end courses">Front-end courses</option>
+                    <option value="Back-end courses">Back-end courses</option>
+                    <option value="CSS">CSS</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <label for="" >choose anything which we want to improve</label>
+            </div>
+            <div class="input-field">
+                <div>
+                    <input type="checkbox" name="projects" id="" value="Challenge">Challenge
+                </div>
+                <div>
+                    <input type="checkbox" name="projects" id="" value="Front-end courses">Front-end courses
+                </div>
+                <div>
+                    <input type="checkbox" name="projects" id="" value="Back-end courses">Back-end courses
+                </div>
+                <div>
+                    <input type="checkbox" name="projects" id="" value="Data Visualization">Data Visualization
+                </div>
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <label for="" >Comments </label>
+            </div>
+            <div class="input-field">
+                <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your commnet here"></textarea>
+            </div>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+
+    </section>
+</body>
+</html>

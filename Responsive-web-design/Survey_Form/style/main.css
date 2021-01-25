@@ -1,0 +1,62 @@
+body
+{
+  width: 100%;
+  background: url("https://images.pexels.com/photos/3183135/pexels-photo-3183135.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title
+{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+#description
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+#container
+{
+  background: rgb(81, 152, 175); 
+  margin: auto;
+  width: 80%;
+  padding: 15px 0px;
+}
+#survey-form
+{
+  text-align: center;
+}
+.row
+{
+  display: flex;
+  padding-bottom: 20px;
+}
+.label
+{
+  display: flex;
+  width: 40%;
+  text-align: left;
+  vertical-align: top;
+}
+.input-field
+{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.select-tap
+{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+#dropdown
+{
+  padding: 5px 0px;
+}
+
+#submit
+{
+  text-align: center;
+}
